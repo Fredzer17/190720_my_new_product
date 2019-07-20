@@ -1,0 +1,74 @@
+body {
+	background-color: rgb(170, 170,170);
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+
+h1, h3, h4 {
+	font-family: 'Lato', sans-serif;
+	color: #2F83EA;
+}
+
+
+h1{
+	font-size: 40px;
+}
+
+h3{
+	font-weight: lighter;
+	font-family: 'Fascinate', cursive;
+}
+
+
+a{
+	text-decoration: none;
+	color:black;
+}
+
+.banner a {
+	color: green;
+	text-decoration: underline;
+}
+
+.banner {
+	background-image: linear-gradient(rgba(0, 0, 0, .8) 0%, rgba(0, 0, 0, 0.2) 50%), url(images/flamethrower.jpg);
+	width: 1100px;
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	padding: 150px, O;
+	margin: 40px;
+	border: 5px red solid ;
+	border-radius: 12px;
+	box-shadow: 5px 10px 10px grey;
+}
+
+.card {
+	background-color: white;
+	border-radius: 7px;
+	padding: 30px;
+	margin: 20px;
+	box-shadow: 5px 10px 10px grey;
+
+}
+
+.footer {
+	background: black;
+	color: white;
+	padding: 15px;
+	text-decoration: underline;
+}
+
+.footer ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.footer li {
+	display: inline-block;
+}
+
+img {
+	width: 300px;
+}
